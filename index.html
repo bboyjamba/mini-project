@@ -7,48 +7,110 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <img
-          src="./assets/fes-logo.png"
-          alt="fes logo"
-          class="lol__img"
-          width="50px"
-        />
-        <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
-      </div>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#social">Social</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <header>
-      <div class="row row__course">
-        <div class="course">
-          <h1 class="course__icon">💾</h1>
-          <div class="course__text">
-            <div class="course__selection">----Your Course----</div>
-            <div class="course__title">Software Engineering</div>
+    <!-- Header -->
+    <section>
+      <nav>
+        <div class="logo">
+          <img
+            src="./assets/fes-logo.png"
+            alt="fes logo"
+            class="logo__img"
+            width="50px"
+          />
+          <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#social">Social</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <header>
+        <div class="row row__course">
+          <div class="course">
+            <h1 class="course__icon">💾</h1>
+            <div class="course__text">
+              <div class="course__selection">----Your Course----</div>
+              <div class="course__title">Software Engineering</div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="hero">
-          <figure class="hero__img--wrapper">
-            <img src="./assets/laptop.png" alt="hero image" class="hero__img" />
-          </figure>
-          <div class="hero__description">
-            <h1>Best place to learn frontend</h1>
-            <p class="subheader">
-              Go fromabsolute beginner to pro with simplified process.
-            </p>
-            <a href="#about">
-              <button class="hero__description--button">▷ Learn More</button>
-            </a>
+        <div class="row">
+          <div class="hero">
+            <figure class="hero__img--wrapper">
+              <img
+                src="./assets/laptop.png"
+                alt="Student on laptop"
+                class="hero__img"
+              />
+            </figure>
+            <div class="hero__description">
+              <h1>Best place to learn frontend</h1>
+              <p class="subheader">
+                Go fromabsolute beginner to pro with simplified process.
+              </p>
+              <a href="#about">
+                <button class="hero__description--button">▷ Learn More</button>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </section>
+
+    <!-- MAIN -->
+    <main>
+      <!-- About  -->
+      <section id="about">
+        <div class="row about__row">
+          <div class="section__card section__card--about">
+            <h1 class="section__card--title">About</h1>
+            <div class="section__description">
+              <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quisquam, quod.
+                </p>
+                <p class="section__description--para">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quisquam, quod.
+                </p>
+              </div>
+              <figure class="section__img--wrapper">
+                <img src="./assets/reading.png" alt="About image" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section -->
+      <section id="Social">
+        <div class="row social__row">
+          <div class="section__card section__card--social">
+            <h1 class="section__card--title">Social</h1>
+            <div class="section__description">
+              <figure class="section__img--wrapper">
+                <img src="./assets/social.png" alt="social image" />
+              </figure>
+              <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quisquam, quod.
+                </p>
+                <p class="section__description--para">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quisquam, quod. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Quisquam, quod.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
